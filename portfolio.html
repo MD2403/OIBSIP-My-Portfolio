@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Maharshi's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, my name is <span class="purple"><span id="name"></span></span>
+                <div>and I am a passionate</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Dwonload Resume</button>
+                    <button class="btn">Visit GitHub</button>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="bg.png" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-grey">What I have done so far</span>
+            <h1>Work Experience</h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <img  class="image-top" src="developer.png" alt="">
+                    <div class="vertical-title">
+                        Intern at LetsGrowMore (March'23-April'23)
+                    </div>
+                    <div class="veritcal-desc">
+                        During my one-month virtual internship at LetsGrowMore, I tackled assigned tasks with enthusiasm and efficiency. Navigating a remote work environment, I successfully completed projects, enhancing my skills in HTML, CSS, and JavaScript. This experience not only strengthened my adaptability but also fueled my passion for Web Development
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img  class="image-top" src="developer.png" alt="">
+                    <div class="vertical-title">
+                        Intern at OasisInfobyte (Feb'24-March'24)
+                    </div>
+                    <div class="veritcal-desc">
+                        In my one-month virtual internship at Oasis Infobyte, I dived into assigned tasks with diligence. Adapting to a remote work setting, I accomplished projects, refining my skills in HTML, CSS, and JavaScript. This experience heightened my adaptability and deepened my interest in Web Development.                    </div>
+                </div>
+                <div class="vertical">
+                    <img  class="image-top" src="developer.png" alt="">
+                    <div class="vertical-title">
+                        Participated in a National Level Hackathon: PU Code Hackathon
+                    </div>
+                    <div class="veritcal-desc">
+                        The PU Code Hackathon is a prestigious National Level event that brings together talented individuals from across the country to engage in a competitive coding challenge. Participants in this hackathon showcase their programming skills, problem-solving abilities, and innovative thinking as they tackle a series of coding challenges within a specified timeframe.
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section class="thirdSection">
+            <span class="text-grey">What I have mastered so far</span>
+            <h1>Skills</h1>
+
+            <div class="skill-box">
+                <div class="third-vertical">
+                    <img  class="image-top" src="html.png" alt="">
+                    <div class="vertical-title">
+                        HTML3
+                    </div>
+                    <div class="veritcal-desc">
+                        Intermediate
+                    </div>
+                </div>
+                <div class="third-vertical">
+                    <img  class="image-top" src="css.png" alt="">
+                    <div class="vertical-title">
+                        CSS3
+                    </div>
+                    <div class="veritcal-desc">
+                        Intermediate
+                    </div>               
+                </div>
+                <div class="third-vertical">
+                    <img  class="image-top" src="js.png" alt="">
+                    <div class="vertical-title">
+                        JavaScript
+                    </div>
+                    <div class="veritcal-desc">
+                        Intermediate
+                    </div>
+                </div>
+                <div class="third-vertical">
+                    <img  class="image-top" src="python.png" alt="">
+                    <div class="vertical-title">
+                        Python
+                    </div>
+                    <div class="veritcal-desc">
+                        Intermediate
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Maharshi's Developer Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyright &#169; All Rights Reserved. Designed by Maharshi Dalal
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#name', {
+            strings: ['Maharshi Dalal'],
+            typeSpeed: 50,
+        });
+        var typed = new Typed('#element', {
+            strings: ['Web Developer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+</html>
